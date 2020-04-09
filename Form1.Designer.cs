@@ -159,9 +159,9 @@
             this.staticLabelMsgPreview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.staticLabelMsgPreview.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.staticLabelMsgPreview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.staticLabelMsgPreview.Location = new System.Drawing.Point(1216, 16);
+            this.staticLabelMsgPreview.Location = new System.Drawing.Point(1592, 16);
             this.staticLabelMsgPreview.Name = "staticLabelMsgPreview";
-            this.staticLabelMsgPreview.Size = new System.Drawing.Size(680, 32);
+            this.staticLabelMsgPreview.Size = new System.Drawing.Size(304, 32);
             this.staticLabelMsgPreview.TabIndex = 13;
             this.staticLabelMsgPreview.Text = "Message Preview";
             this.staticLabelMsgPreview.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
