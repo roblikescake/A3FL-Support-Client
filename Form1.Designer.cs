@@ -277,7 +277,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::A3FL_Support_Client.Properties.Resources.Yt_Ban;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1904, 1038);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.buttonInductionLinks);
             this.Controls.Add(this.buttonSupportRoster);
             this.Controls.Add(this.buttonCivilianApps);

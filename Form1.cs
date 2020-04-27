@@ -49,7 +49,7 @@ namespace A3FL_Support_Client
             {
                 applicationStatus = inputChooseResponse.SelectedItem.ToString();
             }
-    
+
 
             inputsValid = true;
             //Generate Response
@@ -123,7 +123,14 @@ namespace A3FL_Support_Client
             //Clear Output
             labelMessagePreview.Text = " ";
         }
-
+        private void buttonInductionLinks_Click(object sender, EventArgs e)
+        {
+            labelMessagePreview.Text = "[url=https://forums.arma3fisherslife.net/]Forums[/url]\n"
+                + "[url=https://forums.arma3fisherslife.net/threads/565/]Rules[/url]\n"
+                + "[url=https://forums.arma3fisherslife.net/threads/664/]Punishment System[/url]\n"
+                + "[url=https://forums.arma3fisherslife.net/threads/688/]Community Standards[/url]\n"
+                + "[url=https://forums.arma3fisherslife.net/threads/1647/#post-3598/]Start-up Guide[/url]\n";
+        }
         private void buttonActivityLogger_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://docs.google.com/forms/d/1H4ONK-reeO_milqTJ6GRNeO8g17kC0Vxf8RyViX7urI/viewform?edit_requested=true");
@@ -151,4 +158,5 @@ namespace A3FL_Support_Client
         {
             System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1_iT1-2ALbSDec5ztZdeTiNz8BCmgCuQsfPhtxnRrSDM/edit#gid=3534281");
         }
+    }
 }
