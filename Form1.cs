@@ -87,6 +87,16 @@ namespace A3FL_Support_Client
                             + "[color=#ff99ff]" + supportName + "\n"
                             + "Support[/color]";
                         break;
+                    case "ON HOLD - Minimum Arma Hours":
+                        //App On Hold
+                        labelMessagePreview.Text = "Hello [color=#0080ff]" + applicantName + "[/color],\n\n"
+                            + "Your application is [color=#ff8000][i]On Hold[/i][/color] because of the following reasons:\n\n"
+                            + "Your currently do not meet the [color=#ff8000]minimum time[/color] required on Arma 3 [color=#ff8000](20 hours)[/color] to play on the server. If you have any questions or would like to know how to work towards meeting this requirement, please join our community Teamspeak, [color=#ff8000]ts3.arma3fisherslife.net or 54.36.238.11:11690[/color].\n\n"
+                            + "Please fix the issue(s) above so we can continue your induction process by editing your original post. Make sure that you have replied only stating that you have fixed these issues. (eg. Fixed!)\n\n"
+                            + "Thanks,\n"
+                            + "[color=#ff99ff]" + supportName + "\n"
+                            + "Support[/color]";
+                        break;
                     default:
                         //No item Selected
                         labelMessagePreview.Text = "ERROR: You have not selected a Response. Try again!";
@@ -141,5 +151,4 @@ namespace A3FL_Support_Client
         {
             System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1_iT1-2ALbSDec5ztZdeTiNz8BCmgCuQsfPhtxnRrSDM/edit#gid=3534281");
         }
-    }
 }

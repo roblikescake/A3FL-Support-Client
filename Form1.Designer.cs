@@ -46,6 +46,7 @@
             this.buttonApplicationProcess = new System.Windows.Forms.Button();
             this.buttonCivilianApps = new System.Windows.Forms.Button();
             this.buttonSupportRoster = new System.Windows.Forms.Button();
+            this.buttonInductionLinks = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // staticLabelApplicantName
@@ -96,7 +97,8 @@
             this.inputChooseResponse.Items.AddRange(new object[] {
             "Accepted",
             "ON HOLD - Forum/RP Name Dont Match",
-            "ON HOLD - Famous/Fictional Name"});
+            "ON HOLD - Famous/Fictional Name",
+            "ON HOLD - Minimum Arma Hours"});
             this.inputChooseResponse.Location = new System.Drawing.Point(24, 272);
             this.inputChooseResponse.Name = "inputChooseResponse";
             this.inputChooseResponse.Size = new System.Drawing.Size(420, 33);
@@ -254,13 +256,29 @@
             this.buttonSupportRoster.UseVisualStyleBackColor = false;
             this.buttonSupportRoster.Click += new System.EventHandler(this.buttonSupportRoster_Click);
             // 
+            // buttonInductionLinks
+            // 
+            this.buttonInductionLinks.BackColor = System.Drawing.Color.Transparent;
+            this.buttonInductionLinks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonInductionLinks.ForeColor = System.Drawing.Color.BlueViolet;
+            this.buttonInductionLinks.Location = new System.Drawing.Point(520, 832);
+            this.buttonInductionLinks.Name = "buttonInductionLinks";
+            this.buttonInductionLinks.Size = new System.Drawing.Size(175, 75);
+            this.buttonInductionLinks.TabIndex = 20;
+            this.buttonInductionLinks.Text = "Induction Links";
+            this.buttonInductionLinks.UseVisualStyleBackColor = false;
+            this.buttonInductionLinks.Click += new System.EventHandler(this.buttonInductionLinks_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::A3FL_Support_Client.Properties.Resources.Yt_Ban;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1904, 1038);
+            this.Controls.Add(this.buttonInductionLinks);
             this.Controls.Add(this.buttonSupportRoster);
             this.Controls.Add(this.buttonCivilianApps);
             this.Controls.Add(this.buttonSupportManual);
@@ -308,6 +326,7 @@
         private System.Windows.Forms.Button buttonApplicationProcess;
         private System.Windows.Forms.Button buttonCivilianApps;
         private System.Windows.Forms.Button buttonSupportRoster;
+        private System.Windows.Forms.Button buttonInductionLinks;
     }
 }
 
